@@ -42,7 +42,7 @@ const FlutterDawn = () => {
             Uncover the fascinating story of Flutter in ‘Flutter’s Dawn: History of Flutter.’
             From humble origins to global acclaim, delve into its captivating narrative.
             Explore milestones, triumphs, and challenges. Whether tech enthusiast or curious mind,
-            join us on this captivating journey! <a href="#">Click to begin!</a>
+            join us on this captivating journey! <a href="/" aria-disabled="true">Click to begin!</a>
           </p>
           <button className="begin-button">
             BEGIN <FiArrowUpRight size={20} />
