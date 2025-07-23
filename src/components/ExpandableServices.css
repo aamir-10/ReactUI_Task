@@ -1,0 +1,117 @@
+.expandable-services {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 10%;
+  color:#FFFFFFCC;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.services-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.service-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.service-header h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.service-description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #cccccc;
+  max-width: 90%;
+}
+
+.services-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.services-image {
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.service-description a.cta-link {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+}
+.service-description a.cta-link:hover {
+  text-decoration: underline;
+}
+
+/* Medium devices */
+@media (max-width: 1024px) {
+  .expandable-services {
+    padding: 4rem 6%;
+    gap: 2rem;
+  }
+}
+
+/* Small devices (phones) */
+@media (max-width: 768px) {
+  .expandable-services {
+    flex-direction: column;
+    padding: 3rem 5%;
+    gap: 2rem;
+  }
+
+  .services-left {
+    min-width: 100%;
+  }
+
+  .service-header h3 {
+    font-size: 1.3rem;
+  }
+
+  .icon {
+    font-size: 1.3rem;
+  }
+
+  .service-description {
+    font-size: 0.95rem;
+  }
+
+  .services-right {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .services-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .service-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .icon {
+    font-size: 1.2rem;
+  }
+
+  .service-description {
+    font-size: 0.9rem;
+  }
+}

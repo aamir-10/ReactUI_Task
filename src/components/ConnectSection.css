@@ -1,0 +1,177 @@
+.connect-wrapper {
+  color: white;
+  padding: 40px 60px;
+}
+
+.connect-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.connect-left {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.top-nav li {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.connect-text {
+  margin-top: 150px;
+}
+
+.connect-text p {
+  margin: 0;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.connect-site {
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.connect-right {
+  flex: 1;
+  max-width: 420px;
+  width: 100%;
+}
+
+.connect-heading {
+  font-size: 64px;
+  font-family: 'Georgia', serif;
+  font-weight: 500;
+  margin: 0 0 20px;
+  line-height: 1;
+  text-align: right;
+}
+
+.connect-subheading {
+  font-size: 64px;
+  font-family: 'Georgia', serif;
+  font-weight: 500;
+}
+
+.connect-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.connect-form input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 10px 1px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.connect-form button {
+  align-self: flex-end;
+  padding: 12px 30px;
+  background-color: #034f67;
+  border: 2px solid #08A7CE;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* ✅ Responsive Adjustments */
+@media (max-width: 1024px) {
+  .connect-heading,
+  .connect-subheading {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .connect-text {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .connect-wrapper {
+    padding: 40px 30px;
+  }
+
+  .connect-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .connect-left {
+    margin-right: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .top-nav ul {
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .connect-heading,
+  .connect-subheading {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .connect-text p {
+    font-size: 20px;
+  }
+
+  .connect-site {
+    font-size: 26px;
+  }
+
+  .connect-form button {
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .connect-wrapper {
+    padding: 30px 20px;
+  }
+
+  .connect-heading,
+  .connect-subheading {
+    font-size: 32px;
+  }
+
+  .connect-text {
+    margin-top: 60px;
+  }
+
+  .connect-text p {
+    font-size: 18px;
+  }
+
+  .connect-form input {
+    font-size: 14px;
+  }
+
+  .connect-form button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

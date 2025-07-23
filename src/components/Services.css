@@ -1,0 +1,64 @@
+.services-section {
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+
+}
+
+.main-heading {
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+  font-weight:lighter;
+  margin-bottom: 2px;
+}
+
+.sub-heading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #dcdcdc;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+  max-width: 800px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 32px;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .services-section {
+    padding: 60px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-heading {
+    font-size: 26px;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .services-section {
+    padding: 50px 10px;
+  }
+}
