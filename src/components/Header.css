@@ -9,6 +9,6 @@
 }
 @media (max-width: 768px) {
   .header-banner {
-    margin-top: 500px;
+    margin-top: 70px !important;
   }
 }
