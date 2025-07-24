@@ -62,7 +62,7 @@ const services = [
 ];
 
 const ExpandableServices = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleIndex = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
