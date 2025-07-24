@@ -12,7 +12,7 @@ footer {
 .footer-nav a {
   color: #FFFFFF;
   font-family: 'Quicksand', sans-serif;
-  font-size: 1rem;
+  font-size: 0.7rem;
   text-decoration: none;
   transition: color 0.3s;
 }
