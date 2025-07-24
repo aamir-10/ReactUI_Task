@@ -11,18 +11,18 @@ Welcome to **Flutter Fusion UI**, a modern and stylish frontend built using **Re
 - 🧩 Modular structure for easy scalability and updates
 - 📱 Mobile-friendly and optimized
 
-## 📸 Screenshots
+## 📸 Interface at a Glance
 
-### 🎬 Hero Section
-![Hero Section](./public/hero.png)
+### ⚡️ Landing IntroPage
+![Hero Section](./public/herosection.png)
 
-### 💙 Flutter Highlight
+### 💙 Flutter Highlights
 ![Flutter Dawn](./public/flutter.png)
 
-### 🛠️ Our Services
+### 🛠️ Services
 ![Services](./public/services.png)
 
-### 📞 Footer/Contact
+### 📞 ContactUs/Footer
 ![Footer](./public/footer.png)
 
 ## 🧪 How to Run
