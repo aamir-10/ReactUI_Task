@@ -5,7 +5,7 @@ footer {
 .footer-nav {
   display: flex;
   gap: 4rem;
-  justify-content: flex-start; /* Left-align on desktop */
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -21,7 +21,6 @@ footer {
   color: #ffffff;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
   footer {
     padding: 2rem 1rem;
@@ -29,8 +28,8 @@ footer {
 
   .footer-nav {
     flex-direction: column;
-    align-items: center;          /* Center horizontally */
-    justify-content: center;      /* Center layout */
+    align-items: center;          
+    justify-content: center;
     gap: 1.2rem;
   }
 
