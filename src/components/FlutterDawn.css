@@ -1,4 +1,3 @@
-/* Base layout same as before */
 .flutter-dawn-section {
   display: flex;
   justify-content: space-between;
@@ -75,7 +74,6 @@
   background-color: #04a7d3;
 }
 
-/* ------------------ Responsive ------------------ */
 @media screen and (max-width: 768px) {
   .flutter-dawn-section {
     flex-direction: column;
@@ -102,7 +100,7 @@
     padding: 10px 20px;
   }
   .begin-button:hover{
-    background-color: #066e8f; /* slightly darker */
+    background-color: #066e8f; 
     transform: scale(1.03);
     transition: all 0.3s ease;
   }
