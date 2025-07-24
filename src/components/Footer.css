@@ -5,6 +5,7 @@ footer {
 .footer-nav {
   display: flex;
   gap: 4rem;
+  justify-content: flex-start; /* Left-align on desktop */
   flex-wrap: wrap;
 }
 
@@ -28,6 +29,8 @@ footer {
 
   .footer-nav {
     flex-direction: column;
+    align-items: center;          /* Center horizontally */
+    justify-content: center;      /* Center layout */
     gap: 1.2rem;
   }
 
