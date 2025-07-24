@@ -61,50 +61,20 @@
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .sidebar {
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px;
-    border-right: none;
-    border-bottom: 1px solid #2a2a2a;
-    margin-left: 0;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    width: 200px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1000;
+    background-color: #0d0d0d;
+    overflow-y: auto;
+    border-right: 1px solid #2a2a2a;
   }
 
-  .sidebar-top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 20px;
-  }
-
-  .sidebar-logo {
-    width: 100px;
-    margin: 0;
-  }
-
-  .contact-button {
-    width: auto;
-    height: 40px;
-    padding: 8px 16px;
-    margin: 0;
-    font-size: 14px;
-  }
-
-  .sidebar-nav {
-    flex-direction: row;
-    gap: 16px;
-    margin-top: 12px;
-    flex-wrap: wrap;
-  }
-
-  .sidebar-nav a {
-    font-size: 16px;
+  body {
+    margin-left: 200px;
   }
 }
