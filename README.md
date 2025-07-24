@@ -17,7 +17,7 @@ Welcome to **Flutter Fusion UI**, a modern and stylish frontend built using **Re
 ![Hero Section](./public/herosection.png)
 
 ### 💙 Flutter Highlights
-![Flutter Dawn](./public/flutter.png)
+![Flutter Dawn](./public/flutterr.png)
 
 ### 🛠️ Services
 ![Services](./public/services.png)
