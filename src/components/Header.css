@@ -7,4 +7,8 @@
   padding-bottom:1rem;
   font-style: semi-bold;
 }
-
+@media (max-width: 768px) {
+  .header-banner {
+    margin-top: 70px;
+  }
+}
