@@ -1,4 +1,3 @@
-// src/components/Services.jsx
 import React from 'react';
 import './Services.css';
 import { motion } from 'framer-motion';
