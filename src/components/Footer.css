@@ -4,11 +4,13 @@ footer {
 
 .footer-nav {
   display: flex;
-  gap: 4rem; /* space between links */
+  gap: 4rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footer-nav a {
-  color: #FFFFFF; /* white with 80% opacity */
+  color: #FFFFFF;
   font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   text-decoration: none;
@@ -16,5 +18,22 @@ footer {
 }
 
 .footer-nav a:hover {
-  color: #ffffff; /* solid white on hover */
+  color: #ffffff;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .footer-nav a {
+    font-size: 0.95rem;
+  }
 }
