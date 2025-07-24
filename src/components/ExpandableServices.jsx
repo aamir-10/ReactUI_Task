@@ -1,68 +1,33 @@
-import React, { useState } from 'react';
-import './ExpandableServices.css';
-import { FiPlus, FiMinus } from 'react-icons/fi';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { FiPlus, FiMinus } from "react-icons/fi";
+import "./Services.css";
 
 const services = [
   {
-    title: 'Flutter App Development',
-    description: (
-      <>
-        Unlock endless possibilities with Flutter App Development. Build beautiful,
-        high-performance applications for any platform – faster and easier than ever before.
-        Ready to revolutionize your app experience?{' '}
-        <a href="/get-started" className="cta-link">Let’s get started today!</a>
-      </>
-    )
+    title: "Flutter App Development",
+    description:
+      "We craft high-performance mobile apps using Flutter, enabling seamless cross-platform experiences with native performance.",
   },
   {
-    title: 'UI/UX Design',
-    description: `Craft intuitive and visually stunning designs to ensure seamless user experiences that align with your brand and boost engagement.`
+    title: "Backend API Integration",
+    description:
+      "Robust backend integrations using RESTful APIs and GraphQL ensure your app connects securely and efficiently with servers and databases.",
   },
   {
-    title: (
-      <>
-        Customization <span className="fancy-ampersand">&</span> Integration
-      </>
-    ),
-    description: `Tailor apps to your business needs with smooth integration of third-party services and scalable features.`
+    title: "UI/UX Design",
+    description:
+      "Our designers create beautiful, user-centered interfaces tailored to maximize usability, engagement, and user retention.",
   },
   {
-    title: (
-      <>
-        Testing <span className="fancy-ampersand">&</span> Quality Assurance
-      </>
-    ),
-    description: `Ensure your app works flawlessly with rigorous testing practices and detailed quality checks.`
+    title: "App Store Deployment",
+    description:
+      "From testing to launch, we handle the entire deployment process for both iOS and Android platforms with best practices.",
   },
-  {
-    title: (
-      <>
-        Maintenance <span className="fancy-ampersand">&</span> Support
-      </>
-    ),
-    description: `Keep your app up-to-date and bug-free with ongoing maintenance, support, and performance monitoring.`
-  },
-  {
-    title: (
-      <>
-        Consulting <span className="fancy-ampersand">&</span> Training
-      </>
-    ),
-    description: `Empower your team with expert guidance and training sessions on Flutter best practices and strategies.`
-  },
-  {
-    title: (
-      <>
-        Migration <span className="fancy-ampersand">&</span> Upgrades
-      </>
-    ),
-    description: `Seamlessly migrate legacy systems or upgrade existing apps to the latest Flutter version with minimal disruption.`
-  }
 ];
 
 const ExpandableServices = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(null); // ✅ No section expanded initially
 
   const toggleIndex = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
@@ -74,7 +39,7 @@ const ExpandableServices = () => {
         {services.map((service, index) => (
           <motion.div
             key={index}
-            className={`service-item ${activeIndex === index ? 'active' : ''}`}
+            className={`service-item ${activeIndex === index ? "active" : ""}`}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
